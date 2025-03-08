@@ -10,7 +10,7 @@ import PrivateRoute from './components/auth/PrivateRoute';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/fincach">
       <ToastContainer position="top-right" />
       <Routes>
         <Route path="/login" element={<Login />} />
