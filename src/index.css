@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #1e40af;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ag-theme-alpine {
+  --ag-header-height: 40px;
+  --ag-header-foreground-color: #374151;
+  --ag-header-background-color: #f3f4f6;
+  --ag-header-cell-hover-background-color: #e5e7eb;
+  --ag-header-cell-moving-background-color: #e5e7eb;
+}

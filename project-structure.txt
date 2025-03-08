@@ -1,0 +1,17 @@
+fincach/
+├── client/                 # Frontend React application
+│   ├── public/
+│   └── src/
+│       ├── components/     # Reusable UI components
+│       ├── pages/         # Main page components
+│       ├── contexts/      # React contexts including auth
+│       ├── services/      # API service calls
+│       └── styles/        # Global styles and themes
+├── server/                # Backend Node.js application
+│   ├── config/           # Configuration files
+│   ├── controllers/      # Route controllers
+│   ├── middleware/       # Custom middleware
+│   ├── models/          # Database models
+│   ├── routes/          # API routes
+│   └── services/        # Business logic
+└── docker/              # Docker configuration files
